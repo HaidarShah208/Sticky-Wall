@@ -1,0 +1,20 @@
+/* AllSticksPage.css */
+
+.all-sticks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    min-height: 80vh;
+    overflow-y: scroll;
+    /* Enable vertical scrolling if content overflows */
+}
+
+.sticksCard {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 23%;
+    box-shadow: 0px 0px 10px rgba(114, 22, 22, 0.1);
+}

@@ -1,0 +1,29 @@
+.sticks-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+}
+.sticksCard {
+  min-height: 200px !important;
+  // width: 200px;
+  // min-width: 200px;
+  display: inline-block;
+  border: 0px;
+}
+.addButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.plusIcon {
+  transition: transform 0.5s ease-in-out;
+  font-size: 100px !important;
+  color: rgba(63, 67, 40, 0.423);
+}
+.plusIcon:hover {
+  transform: scale(1.1);
+  // transition: .5s;
+  // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
